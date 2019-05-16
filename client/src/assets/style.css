@@ -1,0 +1,13 @@
+
+#nav{
+    background-color: #211717;
+}
+  
+#nav a {
+    color:#f58b54;
+}
+  
+#nav a.router-link-exact-active {
+    font-weight: bold;
+    color: #f3a57e;
+}
