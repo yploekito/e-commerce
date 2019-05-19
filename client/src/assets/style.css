@@ -1,13 +1,62 @@
-
+html {
+    scroll-behavior: smooth;
+  }
 #nav{
     background-color: #211717;
 }
   
 #nav a {
-    color:#f58b54;
+    color:#fafafa;
+    text-decoration:none
 }
-  
+#nav a:hover{
+    color:#777777
+}
+
 #nav a.router-link-exact-active {
-    font-weight: bold;
-    color: #f3a57e;
+    color:rgba(255, 217, 0, 0.473);
+    text-decoration: none;
+}
+
+body{
+    background-color:rgb(87, 87, 87)
+}
+
+.homeCard{
+    box-shadow:  5px 5px 20px 5px #3d3d3d;
+}
+.homeCard :hover{
+    box-shadow:  5px 5px 20px 5px #050505;
+    cursor: pointer;
+
+}
+.wrapper :hover{
+    box-shadow: none;
+}
+.categories{
+    box-shadow:  0px 0px 20px 5px #3d3d3d;
+}
+/* category{
+    box-shadow:none
+} */
+.goto{
+    transition:all 1s ease
+}
+.goto:hover{
+    position: relative;
+    /* top:1px; */
+    transform: scale(1.05);
+    cursor: pointer;
+}
+/* .cardHomeImage{
+    
+} */
+.navCategory{
+    transition:all 0.5s ease
+
+}
+.navCategory:hover{
+    background-color: white;
+    cursor: pointer;
+
 }
