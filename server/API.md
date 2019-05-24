@@ -1,20 +1,12 @@
 # e-Commerce API Documentation
 
-## progress
-### next: Upload image to GCS
 
 - using token for dummy, email ypl@gmail.com, pass 123 
 
 ``` javascript
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjp7ImNhcnQiOlsiNWNkYTlhNGFhZDBjYTY0YjEzYzFlNjVkIl0sIl9pZCI6IjVjZGE5NGJjMzA0ZDEwNDk4NTA2ZWNjZSIsIm5hbWUiOiJ5b25hdGhhbiIsImVtYWlsIjoieXBsQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJhJDA4JDVTb0w4SEJ0MHdodm5WcnNNQXNtb09oQjcuYi8xQUxHUWtiejVXSlMzMnl3SXdxRWdOOVg2IiwiX192IjowfSwiaWF0IjoxNTU4MDM1OTcyfQ.O28UqJ96ZJzg2oDxnffU9CyndSxppYTYoh83C4At1XM
 ``` 
-- API endpoints is usable (need to complete test)
-- Axios process is done in API
-- Succeed connecting to database, and fetching the documents to be shown in front page
-- Add to cart component called action to vuex ()
-- Retrieved data from cart in Vuex
-- Add and subtract qty from cart page
-- Uploaded new product for seller
+
 
 
 ## /signin and signup
