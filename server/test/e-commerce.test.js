@@ -156,18 +156,11 @@ describe('product', function () {
                 })
         })
     })
-    describe('DELETE /product/:id', function(){
-        it('should send an object with 200 status code', function(done){
+    describe('GET /product/myshop', function(){
+        it('should send an array with 200 status code', function(done){
             chai
                 .request(app)
-                .delete(`/product/${productId}`)
-                .set('token',token)
-                .end(function(err,res){
-                    expect(err).to.be.null
-                    expect(res).to.have.status(200)
-                    expect(res.body).to.be.an('object')
-                    done()
-                })
+                .
         })
     })
     
@@ -265,6 +258,21 @@ describe('product', function () {
                 })
         })
     })
+    describe('DELETE /product/:id', function(){
+        it('should send an object with 200 status code', function(done){
+            chai
+                .request(app)
+                .delete(`/product/${productId}`)
+                .set('token',token)
+                .end(function(err,res){
+                    expect(err).to.be.null
+                    expect(res).to.have.status(200)
+                    expect(res.body).to.be.an('object')
+                    done()
+                })
+        })
+    })
+
 
 
 })
